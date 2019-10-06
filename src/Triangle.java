@@ -8,4 +8,10 @@ public class Triangle {
         lengthB = b;
         lengthC = c;
     }
+
+    double calcPerimeter() {
+        double trianglePerimeter = lengthA + lengthB + lengthC;
+        return trianglePerimeter;
+    }
+
 }

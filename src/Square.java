@@ -4,4 +4,9 @@ public class Square {
     public Square(double a) {
         length = a;
     }
+
+    double calcArea() {
+        double squareArea = length * length;
+        return squareArea;
+    }
 }

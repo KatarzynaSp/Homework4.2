@@ -6,4 +6,9 @@ public class Rectangle {
         lengthA = a;
         lengthB = b;
     }
+
+    public double calcPerimeter() {
+        double recPerimeter = lengthA * 2 + lengthB * 2;
+        return recPerimeter;
+    }
 }
